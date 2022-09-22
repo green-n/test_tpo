@@ -11,6 +11,14 @@ const Calculate =(action,firstNum,secondNum)=>{
 
 }
 
+const MiddleCalculations = (firstNum,secondNum) =>{
+    if(firstNum<0)return "incorrect input"
+    if(secondNum<0)return "incorrect input"
+    average = (firstNum+secondNum)/2;
+    geometricMean = Math.sqrt(firstNum*secondNum)
+    return {average:average,geometricMean:geometricMean}
+}
+
 
 
 
@@ -22,4 +30,4 @@ const Calculate =(action,firstNum,secondNum)=>{
 
 
 
-module.exports = {Calculate};
+module.exports = {Calculate,MiddleCalculations};

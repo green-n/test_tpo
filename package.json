@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/green-n/test_tpo#readme",
   "dependencies": {
+    "chai": "^4.3.6",
+    "deep-equal-in-any-order": "^2.0.0",
     "junit": "^1.4.9"
   },
   "devDependencies": {
